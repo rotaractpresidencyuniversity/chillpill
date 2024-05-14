@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: inline-flex;
+    background-color: white;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.left {
+    padding: 170px;
+}
+
+.logo img {
+    width: 200px;
+    padding-left: 60px;
+    height: 90px;
+    
+    
+}
+
+.logo p {
+    margin-top: 5px;
+    font-size: 9px;
+    text-align: center;
+    padding-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.image-section img {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+
+.menu {
+    background-color: #001f7f;
+    color: gainsboro;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+}
+.menu ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu ul li {
+    margin: 20px 0;
+}
+
+.menu ul li a {
+    color: rgb(245, 244, 244);
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.menu ul li a:hover {
+    background-color: white;
+    color: #001f7f;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
